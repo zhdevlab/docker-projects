@@ -19,3 +19,14 @@ container.
 This folder contains the Dockerfile, the commands used to build and run it,
 and notes on the project.
 
+| 
+
+### hello-flask-mysql
+
+Extended the hello-flask project into a two-container setup — Flask and
+MySQL, communicating over a custom Docker network. Focus was on
+container-to-container networking, not the app itself.
+
+This folder contains the Dockerfile, the commands used to build and run
+it, and notes on the project.
+
