@@ -30,3 +30,14 @@ container-to-container networking, not the app itself.
 This folder contains the Dockerfile, the commands used to build and run
 it, and notes on the project.
 
+|
+
+### multi-container-challenge
+
+A CoderCo challenge: a Flask app backed by Redis, with persistent storage,
+environment-variable-based configuration, and horizontal scaling behind an
+Nginx reverse proxy. Builds on the single-container and MySQL projects by
+introducing load balancing across multiple instances of the same service.
+
+This folder contains the Dockerfile, nginx config, commands used, and notes
+on the project.
